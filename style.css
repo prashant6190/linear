@@ -1,0 +1,204 @@
+
+.box1{
+    height: 30px;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+     text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(To right,red,yellow,green)
+}
+
+.box2{
+    height: 26px;
+    width:798px;
+    margin-top: 18px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: skyblue;
+    margin-left: 304px;
+    font-size: 18px;
+    padding-bottom: 51px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+.parent{
+    height: 242px;
+    border: 5px solid black;
+    margin-top: 33px;
+    width: 100%;
+    display: flex;
+    background-color: springgreen;
+    border-radius: 13px;
+}
+#child1{
+    height: 115px;
+    display: flex;
+    padding-left: 22px;
+    justify-content: space-around;
+    width: 437px;
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+    border: 3px solid green ;
+    border-radius: 8px;
+}
+#child2{
+    height: 115px;
+    display: flex;
+    padding-left: 22px;
+    width: 437px;
+    justify-content: space-around;
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+    border: 3px solid green ;
+    border-radius: 8px;
+
+}
+#child3{
+    height: 115px;
+    display: flex;
+    padding-left: 22px;
+    width: 437px;
+    margin-left: 28px;
+    font-weight: bold;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: skyblue;
+    border: 3px solid green ;
+    border-radius: 8px;
+}
+#child4{
+        height: 115px;
+        width: 458px;
+        bottom: 151px;
+        font-weight: bold;
+        top: 302px;
+        right: 518px;
+        position: absolute;
+        margin-bottom: 46px;
+        border: 3px solid green;
+        border-radius: 8px;
+        background-color: skyblue;
+        font-size: 18px;  
+    }
+    .box1a{
+        height: 50px;
+        width: 100%;
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: underline red;
+        font-weight: bold;
+        text-align: center;
+        background-image: linear-gradient(To right,red,orange,red)
+    }
+    .parent1{
+        height: 253px;
+        width: 100%;
+        border: 4px green;
+        display: flex;
+        background-color: silver;
+        background-image:radial-gradient(lightgreen,blue,lightgreen)
+    }
+    .child{
+
+        height: 182px;
+        width: 283px;
+        justify-content: space-around;
+        margin-left: 64px;
+        margin-top: 19px;
+        background-color: yellow;
+        border-radius: 22px;
+        border: 5px solid BROWN;
+        color: rgba(165, 42, 42, 0.904);
+        text-decoration: underline brown;
+        font-size: 17px;
+        font-weight: bold;
+        padding-left: 44px;
+        /* margin-left: 34px; */
+        font-family: sans-serif;
+ }
+ .container1{
+     display: grid;
+     margin: auto;
+     margin-top: 20px;*
+     height: 480px;
+     width: 80vw;
+     grid-template-columns: repeat(3, 1fr) 100px;
+     grid-template-rows: 60px 100px 200px 60px;
+     grid-gap: 20px;
+ }
+ .boxfox{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-weight: 900;
+    background-color: tomato;
+    font-size: 20px;
+    color: white;
+    padding-top: 11px;
+ }
+ .boxfox1{
+    grid-row-start: 2;
+    font-size: 31px;
+    color: white;
+    /* height: 126px; */
+    text-align: center;
+    /* padding-top: 0px; */
+    font-weight: 900;
+    /* margin-top: 31px; */
+    background-color: limegreen;
+}
+.boxfox2{
+     font-size: 31px; 
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-weight: 900;
+    background-color: cornflowerblue;
+}
+.boxfox3{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-weight: 900;;
+    background-color: purple;
+}
+.boxfox4{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-weight: 900;
+    background-color: black;
+}
+.boxfox5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-weight: 900;
+    background-color: black;
+}
+.boxfox6{
+    background-color: olivedrab;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30PX;
+    PADDING-TOP: 13PX;
+}
